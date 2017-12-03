@@ -49,14 +49,14 @@
 
     .text .val {
         font-size: 72px;
-        font-weight: bold;
+        font-weight: 400;
         margin: 0px;
     }
 
     .text .type-time {
         font-size: 16px;
         text-transform: capitalize;
-        font-weight: bold;
+        font-weight: 400;
         margin-top: -10px;
     }
 
