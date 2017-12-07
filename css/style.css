@@ -498,7 +498,7 @@ ul .other-menu-2 {
     background-size: cover;
 }
 .bg-couple {
-    background: url(../images/couple-back.jpg) no-repeat center center;
+    background: url(../images/couple-back.jpg?v=1) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
