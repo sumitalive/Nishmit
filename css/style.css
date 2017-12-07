@@ -2259,6 +2259,10 @@ select {
             margin-top: 0px;
             margin-bottom: 10px;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 767px) {
         .navbar-nav {
@@ -2291,6 +2295,10 @@ select {
         }
         .wedding-person .couple-name span {
             font-size: 37px;
+        }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
         }
     }
     @media screen and (max-width: 736px) {
@@ -2362,6 +2370,10 @@ select {
         .timeline h3, .h3 {
             font-size: 32px;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 640px) {
         .inner-data .couple-name h1, .h1 {
@@ -2431,6 +2443,10 @@ select {
         }
         .timeline h3, .h3 {
             font-size: 32px;
+        }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
         }
     }
     @media screen and (max-width: 568px) {
@@ -2512,6 +2528,10 @@ select {
         .couple-area-s2 .social-s2 {
             top: 43%;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 480px) {
         .pt-page-1 .main-section {
@@ -2592,6 +2612,10 @@ select {
         .couple-area-s2 .social-s2 {
             top: 43%;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 414px) {
         .inner-data {
@@ -2665,6 +2689,10 @@ select {
         }
         .the-couple-img-hover a {
             padding-top: 3px;
+        }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
         }
     }
     @media screen and (max-width: 375px) {
@@ -2740,6 +2768,10 @@ select {
         .the-couple-img-hover a {
             padding-top: 3px;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 360px) {
         .inner-data {
@@ -2814,6 +2846,10 @@ select {
         .the-couple-img-hover a {
             padding-top: 3px;
         }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
+        }
     }
     @media screen and (max-width: 320px) {
         .inner-data {
@@ -2854,5 +2890,9 @@ select {
             position: absolute;
             top: 41%;
             left: 42%;
+        }
+        .couple-page-title{
+            margin-bottom: 40px !important;
+            margin-top: 30px;
         }
     }
