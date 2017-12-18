@@ -463,7 +463,7 @@ ul .other-menu-2 {
     top: 0px;
 }
 .bg-loveline {
-    background: url(../images/loveline-back.jpg) no-repeat center center;
+    background: url(../images/loveline-back.jpg?v=1) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1004,7 +1004,7 @@ ul .other-menu-2 {
     margin: 110px 0px 0px;
 }
 .timeline > li:nth-child(2) {
-    margin-top: 60px;
+    //margin-top: 60px;
 }
 .timeline > li.timeline-inverted > .timeline-badge {
     left: -49px;

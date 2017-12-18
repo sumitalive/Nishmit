@@ -94,7 +94,7 @@ $(document).on('ready', function () {
    var startdate = new Date('04/1/2016'); //Enter Timer start date or Today's date - MM/DD/YYYY
    if ($.find('.countdown').length) {
        $('.countdown').countdown({
-            date: '02/18/2018 13:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+            date: '02/11/2018 13:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
            offset: +5.5,
            day: 'Day',
            days: 'Days'
@@ -116,7 +116,7 @@ $(document).on('ready', function () {
    /*Timer for wedding page*/
    if ($.find('#example').length) {
        $('#example').countdown({
-           date: '02/18/2018 13:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+           date: '02/11/2018 13:00:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
            offset: +5.5,
            day: 'Day',
            days: 'Days'
