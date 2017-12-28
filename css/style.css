@@ -463,11 +463,12 @@ ul .other-menu-2 {
     top: 0px;
 }
 .bg-loveline {
-    background: url(../images/loveline-back.jpg?v=1) no-repeat center center;
+    background: url(../images/loveline-back.jpg?v=5) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: right top;
 }
 .bg-people {
     background: url(../images/people-back.jpg) no-repeat center center;
@@ -477,11 +478,12 @@ ul .other-menu-2 {
     background-size: cover;
 }
 .bg-wedding {
-    background: url(../images/wedding-back.jpg) no-repeat center center;
+    background: url(../images/wedding-back.jpg?v=1) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 .bg-gifts {
     background: url(../images/gift-back.jpg) no-repeat center center;

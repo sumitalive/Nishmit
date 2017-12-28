@@ -60,7 +60,8 @@
 
         if (tempn == 0 && tempe == 0 && tempc == 0 && tempa == 0 && tempg == 0) {
             $("#loding").css("display", "inline-block");
-            $.post("mail_script.php", {
+            $("#submit").attr('disabled',true);
+            $.post("mail.php", {
                 Name: $("#Name").val(),
                 Emailaddress: $("#Emailaddress").val(),
                 Contactnumber: $("#Contactnumber").val(),
@@ -84,6 +85,8 @@
                         $("#Error").slideUp("slow");
                     }, 3000);
                 }
+                $("#submit").removeAttr('disabled');
+                
             });
         }
     });
