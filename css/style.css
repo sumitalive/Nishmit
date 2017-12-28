@@ -483,7 +483,7 @@ ul .other-menu-2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 .bg-gifts {
     background: url(../images/gift-back.jpg) no-repeat center center;
@@ -1524,6 +1524,10 @@ select {
     -moz-appearance: none;
     appearance: none;
 }
+#save_date
+{
+    margin-top: 30px;font-size:36px;
+}
 @media (max-width: 767px) {
     .themebox {
         margin-bottom: 30px;
@@ -2378,6 +2382,10 @@ select {
         }
     }
     @media screen and (max-width: 640px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .inner-data .couple-name h1, .h1 {
             font-size: 40px;
         }
@@ -2452,6 +2460,10 @@ select {
         }
     }
     @media screen and (max-width: 568px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .pt-page-1 .main-section {
             overflow-y: scroll;
         }
@@ -2536,6 +2548,10 @@ select {
         }
     }
     @media screen and (max-width: 480px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .pt-page-1 .main-section {
             overflow-y: scroll;
         }
@@ -2620,6 +2636,10 @@ select {
         }
     }
     @media screen and (max-width: 414px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .inner-data {
             top: 25%;
         }
@@ -2698,6 +2718,10 @@ select {
         }
     }
     @media screen and (max-width: 375px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .inner-data {
             top: 28%;
         }
@@ -2776,6 +2800,10 @@ select {
         }
     }
     @media screen and (max-width: 360px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .inner-data {
             top: 28%;
         }
@@ -2854,6 +2882,10 @@ select {
         }
     }
     @media screen and (max-width: 320px) {
+        #save_date
+        {
+            margin-top: 30px;font-size:24px;
+        }
         .inner-data {
             top: 22%;
         }
