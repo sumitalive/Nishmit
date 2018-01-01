@@ -463,15 +463,15 @@ ul .other-menu-2 {
     top: 0px;
 }
 .bg-loveline {
-    background: url(../images/loveline-back.jpg?v=5) no-repeat center center;
+    background: url(../images/couple-back.jpg?v=5) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: right top;
+   // background-position: right top;
 }
 .bg-people {
-    background: url(../images/people-back.jpg) no-repeat center center;
+    background: url(../images/family-back.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -500,11 +500,12 @@ ul .other-menu-2 {
     background-size: cover;
 }
 .bg-couple {
-    background: url(../images/couple-back.jpg?v=1) no-repeat center center;
+    background: url(../images/loveline-back.jpg?v=1) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: right top;
 }
 .bg-home {
     background: url(../images/home-back.jpg) no-repeat center center;
