@@ -102,16 +102,7 @@ $(document).on('ready', function () {
            // Finish Callback
        });
    }
-   $(window).load(function () {
-       if ($.find('.gridlayout').length) {
-           $('.gridlayout').isotope({
-               itemSelector: '.grid-item',
-               masonry: {
-                   columnWidth: '.grid-item'
-               }
-           });
-       }
-   });
+
 
    /*Timer for wedding page*/
    if ($.find('#example').length) {
