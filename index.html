@@ -33,6 +33,16 @@
                 color: #f44336;
             }
         </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112822492-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112822492-1');
+</script>
+
     </head>
     <body>
         <!--menu bar starts from here-->
@@ -907,6 +917,7 @@
                 <!--GALLERY-->
                 <div class="pt-page pt-page-6">
                     <div class="container-fluid display_none bg-main-image">
+                        <div class="loading" style="text-align: center;">Loading....</div>
                         <div class="blur-img bg-gallery"></div>
                         <div class="page-scroll">
                             <div class="bg-main-image-overlay-2-gallery">
@@ -1796,10 +1807,11 @@
                                                                                                 <script type="text/javascript" src="js/formValidation.js"></script>
                                                                                                 <script async defer src="https://apis.google.com/js/api.js"
                                                                                                         onload="this.onload = function () {
+                                                                                                            handleClientLoad()
                                                         };
-                                                        handleClientLoad()"
+                                                        "
                                                                                                 onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
-                                                                                                <script type="text/javascript" src="js/calendar.api.js"></script>
+                                                                                               <script type="text/javascript" src="js/calendar.api.js"></script>
                                                                                                 </body>
 
 
